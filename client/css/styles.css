@@ -1,0 +1,45 @@
+
+
+body{
+    background-image:url(../img/patricio.jpg);
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+form{
+    display:grid;
+    justify-content: center;
+}
+input{
+    margin:4%;
+    border: 3px solid black;
+ }
+
+p{
+    font-size: 16px;
+}
+.btn-sub{
+    border-radius:30px;
+}
+.btn-sub:hover{
+    background-color: grey;
+    color:white;
+}
+label{
+    font-size:20px;
+    font-weight: bold;
+
+}
+.ref{
+    text-decoration: none;
+    font-size:25px;
+    color:whitesmoke;
+}
+.ref:hover{
+    font-size:30px;
+    text-decoration:revert;
+}
